@@ -52,13 +52,5 @@ function updateProductById(id, updatedProduct) {
   fs.writeFileSync(FILE_NAME, updatedProducts);
   console.log('Product updated successfully');
 }
-addProduct({ id: '1', name: 'apple', price: '2.50' });
-addProduct({ id: '2', name: 'banana', price: '1.50' });
-
-console.log(getProductById('1'));
-
-deleteProductById('1');
-
-updateProductById('2', { id: '2', name: 'ripe banana', price: '2.00' });
-
-console.log(getProductById('2'));
+addProduct({id:'2', name:'Rowan', price:12588654})
+updateProductById('1', {id:'1', name:'Rhys', price:9988654})
