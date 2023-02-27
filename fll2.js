@@ -53,4 +53,4 @@ function updateProductById(id, updatedProduct) {
   console.log('Product updated successfully');
 }
 addProduct({id:'2', name:'Rowan', price:12588654})
-updateProductById('1', {id:'1', name:'Rhys', price:9988654})
+updateProductById('1', {id:'1', name:'Rys', price:9988654})
