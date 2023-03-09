@@ -7,8 +7,7 @@ const server = http.createServer(
             'Content-Type':'text/plain'
         });
         res.end('Velaris, the city of starlight')
-    }
-);
+    });
 server.listen(port, function(){
     console.log('running');
 });
